@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace FirstLesson
 {
@@ -76,6 +76,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
+           
             // User Input
             /*
             Console.WriteLine("Digite seu nome");
@@ -88,6 +89,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
+           
             // Operadores Aritméticos
             /*
             double x = 10;
@@ -110,18 +112,19 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
+            
             // Math
             /*
             double x = 3.88;
             double y = 5;
             double z = -6;
 
-            double a = Math.Pow(x, 2); // Potência
-            double b = Math.Sqrt(y); // Raiz Quadrada
-            double c = Math.Abs(z); // Valor Absoluto
-            double d = Math.Round(x); // Valor arredondado para o inteiro mais próximo
-            double e = Math.Ceiling(x); // Valor arredondado para cima
-            double f = Math.Floor(x); // Valor arredondado para baixo
+            double a = Math.Pow(x, 2);       // Potência
+            double b = Math.Sqrt(y);        // Raiz Quadrada
+            double c = Math.Abs(z);        // Valor Absoluto
+            double d = Math.Round(x);     // Valor arredondado para o inteiro mais próximo
+            double e = Math.Ceiling(x);  // Valor arredondado para cima
+            double f = Math.Floor(x);   // Valor arredondado para baixo
             double g = Math.Max(x, y); // Maior valor
 
             Console.WriteLine(a);
@@ -134,8 +137,21 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
+            
             // Números Aleatórios
+            /*
+            Random aleatorio = new Random();
 
+            int num = aleatorio.Next(1, 11);       // Número inteiro aleatório entre 1 e 10
+            double num2 = aleatorio.NextDouble(); // Número decimal aleatório entre 0 e 1
+
+            Console.WriteLine(num);
+            Console.WriteLine(num2.ToString("F2"));
+            */
+
+            ///////////////////////////////////////////////////////////
+            
+            // Calculadora de Hipotenusa
 
 
             //////////////////////////////////////////////////////////

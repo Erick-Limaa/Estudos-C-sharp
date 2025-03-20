@@ -89,6 +89,52 @@ namespace FirstLesson
 
             ///////////////////////////////////////////////////////////
             // Operadores Aritméticos
+            /*
+            double x = 10;
+            
+            // x += 5;           // Adição
+             
+            // x -= 3;         // Subtração 
+
+            // x *= 2;       // Multiplicação 
+
+            // x /= 2;     // Divisão  
+
+            // x %= 3;   // Módulo  
+
+            // x++;    // Incremento
+
+            //  x--; // Decremento    
+
+            Console.WriteLine(x);
+            */
+
+            ///////////////////////////////////////////////////////////
+            // Math
+            /*
+            double x = 3.88;
+            double y = 5;
+            double z = -6;
+
+            double a = Math.Pow(x, 2); // Potência
+            double b = Math.Sqrt(y); // Raiz Quadrada
+            double c = Math.Abs(z); // Valor Absoluto
+            double d = Math.Round(x); // Valor arredondado para o inteiro mais próximo
+            double e = Math.Ceiling(x); // Valor arredondado para cima
+            double f = Math.Floor(x); // Valor arredondado para baixo
+            double g = Math.Max(x, y); // Maior valor
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            */
+
+            ///////////////////////////////////////////////////////////
+            // Números Aleatórios
 
 
 

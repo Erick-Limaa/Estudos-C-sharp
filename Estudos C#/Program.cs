@@ -76,7 +76,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
-           
+
             // User Input
             /*
             Console.WriteLine("Digite seu nome");
@@ -89,7 +89,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
-           
+
             // Operadores Aritméticos
             /*
             double x = 10;
@@ -112,7 +112,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
-            
+
             // Math
             /*
             double x = 3.88;
@@ -137,7 +137,7 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
-            
+
             // Números Aleatórios
             /*
             Random aleatorio = new Random();
@@ -150,9 +150,190 @@ namespace FirstLesson
             */
 
             ///////////////////////////////////////////////////////////
-            
-            // Calculadora de Hipotenusa
 
+            // Calculadora de Hipotenusa
+            /*
+            Console.WriteLine("Digite o lado A");
+            double a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Digite o lado B");
+            double b = Convert.ToDouble(Console.ReadLine());
+
+            double resultado = Math.Sqrt((a * a) + (b * b));
+
+            Console.WriteLine("o resultado da Hipotenusa é: "+ resultado.ToString("F2"));
+            */
+
+            ///////////////////////////////////////////////////////////
+
+            // Métodos Strings
+            /*
+            String nome = "Erick";
+            String nome_completo = "Erick Lima";
+            String tel = "123.456.789.0";
+
+
+            nome = nome.ToUpper(); // Tudo maiúsculo
+            nome = nome.ToLower(); // Tudo minúsculo
+            Console.WriteLine(nome);
+
+            tel = tel.Replace(".", "-"); // Substituir  
+            Console.WriteLine(tel);
+
+            String usuario = nome.Insert(0, "@"); // Inserir
+            Console.WriteLine(usuario);
+
+            Console.WriteLine(nome_completo.Length); // Tamanho  
+
+            String primeiro_nome = nome_completo.Substring(0, 5); // Corta a string com o index inicial desejável e depois quantas "casas" serão puladas no total
+            String ultimo_nome = nome_completo.Substring(6, 4); // ou (6) já que é até o último index
+            Console.WriteLine(primeiro_nome);
+            Console.WriteLine(ultimo_nome);
+            */
+
+            ///////////////////////////////////////////////////////////
+
+            // if
+            /*
+            Console.WriteLine("Digite sua idade: ");
+            int idade = Convert.ToInt32(Console.ReadLine());
+
+            if (idade >= 18 && idade <= 69){
+                Console.WriteLine("Você é um adulto!");
+            }
+            else if(idade > 70){
+                Console.WriteLine("Você é um idoso!");
+            }
+            else if (idade < 0){
+                Console.WriteLine("Você ainda não nasceu!");
+            }
+            else
+            {
+                Console.WriteLine("Você é menor de idade!");
+            }
+            
+
+            Console.WriteLine("Digite seu nome: ");
+            String nome = Console.ReadLine();
+
+            if (nome != ""){
+                Console.WriteLine("Olá " + nome);
+            }
+            
+            else{
+                Console.WriteLine("Você não digitou seu nome!");
+            }
+            */
+
+            ///////////////////////////////////////////////////////////
+
+            // Switches
+            /*
+            Console.WriteLine("Digite o dia da semana: ");
+            String dia = Console.ReadLine();
+            switch(dia){
+                case "segunda":
+                    Console.WriteLine("Hoje é Segunda-Feira");
+                    break;
+                case "terça":
+                    Console.WriteLine("Hoje é Terça-Feira");
+                    break;
+                case "quarta":
+                    Console.WriteLine("HOje é Quarta-Feira");
+                    break;
+                case "quinta":
+                    Console.WriteLine("Hoje é Quinta-Feira");
+                    break;
+                case "sexta":
+                    Console.WriteLine("Hoje é Sexta-Feira");
+                    break;
+                case "sábado":
+                    Console.WriteLine("Hoje é Sábado");
+                    break;
+                case "domingo":
+                    Console.WriteLine("Hoje é Domingo");
+                    break;
+                default:
+                    Console.WriteLine("Digite um dia válido");
+                    break;
+            }
+            */
+
+            ///////////////////////////////////////////////////////////
+            // Operadores Lógicos
+
+            // && = AND checa se as duas condições são verdadeiras caso 1 seja falsa é falso
+            // || = OR checa se uma ou outra condição é verdadeira caso 1 seja verdadeira é verdadeiro
+            /*
+            Console.WriteLine("Digite a temperatura: ");
+            int temp = Convert.ToInt32(Console.ReadLine());
+
+            if (temp >= 10 && temp <= 38)
+            {
+                Console.WriteLine("A temperatura está normal");
+            }
+            else if (temp < 10 || temp >= 40)
+            {
+                Console.WriteLine("A temperatura está anormal");    
+            }
+            else
+            {
+                { Console.WriteLine("Digite uma temperatura válida"); }
+            }
+            */
+
+            /////////////////////////////////////////////////////////// 
+
+            // While Loop
+
+            /*
+            String nome = "";
+
+            while (nome == "")
+            {
+                Console.Write("Digite o seu nome:  ");
+                nome = Console.ReadLine();
+            }
+
+            Console.WriteLine("Olá " + nome);
+            */
+
+            ///////////////////////////////////////////////////////////
+
+            // For Loop
+
+            /*
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            */
+
+            ///////////////////////////////////////////////////////////
+
+            // Loops Aninhados
+
+            /*
+            Console.WriteLine("Quantas linhas: ");
+            int linhas = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Quantas colunas: ");
+            int colunas = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Qual simbolo: ");
+            char simbolo = Convert.ToChar(Console.ReadLine());
+
+            for (int i = 0; i < linhas; i++)
+            {
+                for (int j = 0; j < colunas; j++)
+                {
+                    Console.Write(simbolo);
+                }
+                Console.WriteLine();
+            }
+            */
+
+            ///////////////////////////////////////////////////////////
 
             //////////////////////////////////////////////////////////
             Console.ReadKey(); // Espera o usuário pressionar uma tecla para fechar o console
